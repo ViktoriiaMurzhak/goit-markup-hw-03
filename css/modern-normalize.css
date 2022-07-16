@@ -4,7 +4,7 @@ Document
 */
 
 /**
-Use a better box model (opinionated).
+Використовуйте кращу модель коробки (з думкою)
 */
 
 *,
@@ -14,9 +14,9 @@ Use a better box model (opinionated).
 }
 
 /**
-1. Correct the line height in all browsers.
-2. Prevent adjustments of font size after orientation changes in iOS.
-3. Use a more readable tab size (opinionated).
+1. Виправте висоту рядка у всіх браузерах.
+2. Запобігайте зміні розміру шрифту після зміни орієнтації в iOS.
+3. Використовуйте більш читабельний розмір табуляції (за думкою).
 */
 
 html {
@@ -32,8 +32,8 @@ Sections
 */
 
 /**
-1. Remove the margin in all browsers.
-2. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+1. Видаліть поле у ​​всіх браузерах.
+2. Покращити узгодженість стандартних шрифтів у всіх браузерах. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
 
 body {
@@ -56,8 +56,9 @@ Grouping content
 */
 
 /**
-1. Add the correct height in Firefox.
-2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+
+1. Додайте правильну висоту у Firefox.
+2. Виправте успадкування кольору рамки у Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 */
 
 hr {
@@ -71,7 +72,7 @@ Text-level semantics
 */
 
 /**
-Add the correct text decoration in Chrome, Edge, and Safari.
+Додайте правильне оформлення тексту в Chrome, Edge і Safari.
 */
 
 abbr[title] {
@@ -79,7 +80,7 @@ abbr[title] {
 }
 
 /**
-Add the correct font weight in Edge and Safari.
+Додайте правильну щільність шрифту в Edge та Safari.
 */
 
 b,
@@ -88,8 +89,8 @@ strong {
 }
 
 /**
-1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
-2. Correct the odd 'em' font sizing in all browsers.
+1. Покращити узгодженість стандартних шрифтів у всіх браузерах. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Виправте розмір шрифту "em" у всіх браузерах.
 */
 
 code,
@@ -115,7 +116,7 @@ small {
 }
 
 /**
-Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+Запобігання впливу елементів sub та sup на висоту рядка в усіх браузерах.
 */
 
 sub,
