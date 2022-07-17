@@ -74,8 +74,6 @@ letter-spacing: 0.02em;
 text-decoration:none;
 }
 
-
-
 .site-nav .link:hover,
 .site-nav .link:focus
 {
@@ -108,10 +106,17 @@ color: var(--link-hover-color)
 color: var(--title-color);
 }
 
+/* .section-title.center
+{
+  text-align: center;
+} */
+
 .order{
 background-color: var(--primary-bg-color);
 align-items: center;
 text-align: center;
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .section-title.one
@@ -136,7 +141,7 @@ color: #fff;
 .button-order {
 min-width: 200px;
 height: 50px;
-display:inline-block;
+
 padding: 10px 32px;
 border-radius: 4px;
 border: none;
@@ -149,14 +154,19 @@ line-height: 1.87;
 letter-spacing: 0.06em;
 margin-right: 484px;
 margin-left: 484px;
-margin-bottom: 200px;
+
 cursor: pointer;
 color: #FFFFFF;
 }
 
 /* features  Особенности*/
+.section.feature{
+ padding: 94px 0;
+ background-color: var(--bg-color-wite);
+}
+
 .feature-title{
-font-size: 0;;
+font-size: 0;
 }
 
 .feature-list .title {
@@ -166,11 +176,29 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+.feature-list .item{
+width: 270px;
+}
+
+.section.work{
+  background-color: var(--bg-color-wite);
+
+}
+.work-list{
+  padding-bottom: 94px;
 }
 
 .team.title{
   color: var(--title-color);
   /* text-align: center; */
+}
+
+.team-list{
+  padding-bottom: 94px;
 }
 
 .team-text{
@@ -182,9 +210,9 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-
-
-
+.section-title.work{
+margin-bottom: 50px;
+}
 
 .section-title.work,
 .section-title.team{
@@ -193,8 +221,13 @@ font-size: 36px;
 line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
+margin-top: 0;
 }
 
+.section-title.team{
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 .team {
   background: #F5F4FA;
 }
@@ -206,7 +239,7 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 }
-
+/* footer */
 .logo-footer{
   font-family: 'Raleway';
 font-weight: 700;
