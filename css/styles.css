@@ -21,6 +21,11 @@ h2, h3, p {
   margin: 0;
 }
 
+ul{
+  margin: 0;
+  padding: 0;
+}
+
 
 .container {
   width: 1200px;
@@ -227,7 +232,6 @@ color: #FFFFFF;
 
 .feature-list .item{
   width: 270px;
-  height: 75px;
 }
 
 .feature-list .item p{
@@ -259,11 +263,10 @@ text-transform: uppercase;
 
 .section.work{
   background-color: var(--bg-color-wite);
-
+  padding-bottom: 94px;
 }
 .work-list{
   display: flex;
-  padding-bottom: 94px;
 }
 
 .work-list .item+.item{
@@ -291,9 +294,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .title-team{
-padding-top: 30px;
-padding-bottom: 10px;
-
+margin-bottom: 10px;
 font-weight: 500;
 font-size: 16px;
 text-align: center;
@@ -303,7 +304,7 @@ color: var(--title-color);
 }
 
 .team-text{
-padding-bottom: 30px;
+
 
 font-size: 16px;
 line-height: 1.19;
@@ -311,6 +312,11 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--primary-text-color);
+}
+
+.team-title-text{
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .section-title.work{
@@ -331,24 +337,18 @@ letter-spacing: 0.03em;
 
 .section-title.team{
   padding-top: 94px;
-  padding-bottom: 50px;
+ margin-bottom: 50px;
 }
 .team {
   background: #F5F4FA;
 }
 
-.title.team {
-color: var(--title-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-}
+
 /* footer */
 .logo-footer{
 display: block;
-padding-top: 60px;
-padding-bottom: 20px;
+
+margin-bottom:20px;
 
 font-family: 'Raleway';
 font-weight: 700;
@@ -367,9 +367,14 @@ color: var(--link-hover-color);
 background-color: var(--primary-bg-color);
 }
 
+.container.footer{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
 .contact-adres{
 display: block;
-padding-bottom: 9px;
+margin-bottom: 9px;
 font-style: normal;
 font-size: 14px;
 line-height: 1.71;
@@ -380,12 +385,12 @@ color: #FFFFFF;
 
 .contact-mail{
   display: block;
-  padding-bottom: 9px;
+margin-bottom: 9px;
 }
 
 .contact-tel{
   display: block;
-  padding-bottom: 60px;
+
 }
 
 .contact-mail, .contact-tel{
@@ -410,6 +415,11 @@ text-decoration:none;
 }
 
 /* PORTFOLIO STYLES */
+
+.container.portfolio-sec{
+padding-top: 94px;
+padding-bottom: 94px;
+}
 .link.portfolio{
   color: var(--link-hover-color);
 }
@@ -422,18 +432,14 @@ font-size: 0;
 
 .buttons-port.list{
 display: flex;
-padding-top: 94px;
-padding-bottom: 34px;
-padding-left: 279px;
-padding-right: 279px;
+margin-bottom: 34px;
+justify-content: center;
 
 }
 
 .buttons-port .item + .item{
   margin-left: 8px;
 }
-
-
 
 .button-portf{
 padding-top: 6px;  
@@ -470,7 +476,7 @@ margin: 15px;
   display:flex;
   flex-wrap: wrap;
   margin: -15px;
-  padding-bottom: 94px;
+ 
 }
 
 .portf-card{
@@ -479,8 +485,8 @@ display: block;
 
 
 .portf-list-title{
-padding-top: 20px;
-padding-bottom: 4px;
+
+margin-bottom: 4px;
 padding-left: 24px;
 font-weight: 700;
 font-size: 18px;
@@ -490,9 +496,8 @@ color: var(--title-color);
 }
 
 .portf-text{
-padding-bottom: 20px;
-padding-left: 24px;
 
+padding-left: 24px;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em; 
@@ -500,7 +505,8 @@ color:var(--primary-text-color);
 }
 
 .card-border{
-
+padding-top: 20px;
+padding-bottom: 20px;
  margin: 0;
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
